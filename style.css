@@ -1,0 +1,127 @@
+﻿/*NAVIGATION*/
+.navbar {
+    background-color: rgb(255, 153, 153);
+    padding: 1% 0;
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #f4f4f4;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a.active {
+    color: #FFF;
+}
+
+/*BACKGROUND OF LANDING PAGE*/
+#home {
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/beauty-spa.jpg);
+    color: #FFF;
+}
+
+.btn {
+    background: #555;
+    color: rgb(255, 153, 153);
+    transition: .4s;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700;
+}
+
+.padding {
+    padding: 40px 0;
+}
+
+.heading-secondary {
+    font-size: 25px;
+    color: rgb(255, 153, 153);
+    margin-bottom: 10px;
+}
+
+.heading-tertiary {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(255, 153, 153);
+}
+
+p {
+    line-height: 1.8;
+    color: #515151;
+    margin-bottom: 4.6rem;
+}
+
+#fixed {
+    background: url(img/background.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(255, 153, 153);
+    padding: 5% 5% 10% 5%;
+    color: #fff;
+}
+/*IMG*/
+.img-round {
+    max-width: 100%;
+border-radius: 50%;
+}
+
+/*ICONS*/
+.icon {
+    padding: 15px;
+    font-size: 25px;
+    color: #FFF;
+    transition: .3s;
+}
+
+.icon:hover {
+    color: #D5D5D5;
+    text-decoration: none;
+}
+
+/*MOBILE*/
+@media(max-width: 768px) {
+    .landing-text h1 {
+        font-size: 300%;
+    }
+
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .icon {
+        padding-top: 5%;
+        max-width: 100px;
+    }
+}
